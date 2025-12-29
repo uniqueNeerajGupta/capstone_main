@@ -62,14 +62,15 @@ def load_df(csv_path):
 
 
 def main():
-    BASE_DIR = Path(__file__).resolve().parent.parent
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
     # input file
     csv_path = BASE_DIR / "data" / "raw" / "main_df" / "houses.csv"
 
     # output file
-    output_dir = BASE_DIR / "data" / "raw" / "clean"
+    output_dir = BASE_DIR / "data" / "raw" / "clean_houses"
     output_dir.mkdir(parents=True, exist_ok=True)
+
 
     output_path = output_dir / "houses_cleaned.csv"
 

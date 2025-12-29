@@ -1,0 +1,16 @@
+stages:
+  flats_clean:
+    cmd: python src/data/clean_flats.py
+    deps:
+    - src/data/clean_flats.py
+    outs:
+    - data/raw/clean
+
+  houses_clean:
+    cmd: python src/data/clean_houses.py
+    deps:
+    # - data/raw
+    -  src/data/clean_houses.py
+    outs:
+    - data/raw/clean_houses
+  

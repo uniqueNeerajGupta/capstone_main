@@ -68,7 +68,7 @@ def load_df(csv_path):
     return df
 
 def main():
-    BASE_DIR = Path(__file__).resolve().parent.parent
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
     # input file
     csv_path = BASE_DIR / "data" / "raw" / "main_df" / "flats.csv"

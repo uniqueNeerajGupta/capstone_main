@@ -1,0 +1,28 @@
+schema: '2.0'
+stages:
+  flats_clean:
+    cmd: python src/data/clean_flats.py
+    deps:
+    - path: src/data/clean_flats.py
+      hash: md5
+      md5: 781aad5db7c225fe65edbd495bf9df31
+      size: 2445
+    outs:
+    - path: data/raw/clean
+      hash: md5
+      md5: 5563312a374e606e2379153e1fac2bd1.dir
+      size: 5140851
+      nfiles: 1
+  houses_clean:
+    cmd: python src/data/clean_houses.py
+    deps:
+    - path: src/data/clean_houses.py
+      hash: md5
+      md5: 9b2e3235bfff5fe0e8a05d25fa89ca7a
+      size: 2613
+    outs:
+    - path: data/raw/clean_houses
+      hash: md5
+      md5: a808a2cb1a2d1bea449aa81b7b61c64f.dir
+      size: 1677958
+      nfiles: 1

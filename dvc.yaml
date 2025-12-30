@@ -13,4 +13,27 @@ stages:
     -  src/data/clean_houses.py
     outs:
     - data/raw/clean_houses
+
+  merge_df:
+    cmd: python src/data/merge.py
+    deps:
+    -  src/data/merge.py
+    outs:
+    - data/raw/merge
+  preprocessing:
+    cmd: python src/preprocessing/preprocessing.py
+    deps:
+    -  src/preprocessing/preprocessing.py
+    outs:
+    - data/raw/preprocessing
+  features:
+    cmd: python src/features/features.py
+    deps:
+    -  src/features/features.py
+    outs:
+    - data/raw/features
+    
+
+
+
   

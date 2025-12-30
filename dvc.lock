@@ -26,3 +26,42 @@ stages:
       md5: a808a2cb1a2d1bea449aa81b7b61c64f.dir
       size: 1677958
       nfiles: 1
+  merge_df:
+    cmd: python src/data/merge.py
+    deps:
+    - path: src/data/merge.py
+      hash: md5
+      md5: 23c8b6abe723096c8727688c9713bbf5
+      size: 1067
+    outs:
+    - path: data/raw/merge
+      hash: md5
+      md5: 6b3d366b0d93d9266b4f5c42aa64264c.dir
+      size: 6821140
+      nfiles: 1
+  preprocessing:
+    cmd: python src/preprocessing/preprocessing.py
+    deps:
+    - path: src/preprocessing/preprocessing.py
+      hash: md5
+      md5: 41c8cf1d115fce7018fcffe901f964ea
+      size: 6400
+    outs:
+    - path: data/raw/preprocessing
+      hash: md5
+      md5: 0d7c17843118167a8166569d7ed0f44b.dir
+      size: 3841385
+      nfiles: 1
+  features:
+    cmd: python src/features/features.py
+    deps:
+    - path: src/features/features.py
+      hash: md5
+      md5: 7ced24d8002df1d14b4cd6e1bb5fb4fa
+      size: 3960
+    outs:
+    - path: data/raw/features
+      hash: md5
+      md5: ec638ea54a8f10b3457f693bed1c0d3c.dir
+      size: 3882642
+      nfiles: 1

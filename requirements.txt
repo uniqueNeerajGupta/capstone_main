@@ -11,3 +11,10 @@ python-dotenv>=0.5.1
 
 
 cd ~/capstone/
+
+flats_cleaned.csv
+houses_cleaned.csv
+gurgaon_properties.csv
+gurgaon_properties_cleaned_v2.csv
+gurgaon_properties_post_features_selection.csv
+gurgaon_properties_missing_value_imputation.csv

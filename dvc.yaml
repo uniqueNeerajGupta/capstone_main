@@ -32,7 +32,34 @@ stages:
     -  src/features/features.py
     outs:
     - data/raw/features
+  outlier:
+    cmd: python src/outlier/outlier.py
+    deps:
+    -  src/outlier/outlier.py
+    outs:
+    - data/raw/outlier
+  imutation:
+    cmd: python src/imutation/imutation.py
+    deps:
+    -  src/imutation/imutation.py
+    outs:
+    - data/raw/imputation
+  features-selection:
+    cmd: python src/features-selection/features_selection.py
+    deps:
+    -  src/features-selection/features_selection.py
+    outs:
+    - data/raw/features_one 
+  model:
+    cmd: python src/models/model.py
+    deps:
+    - src/models/model.py
+    outs: 
+    - data/raw/model_pipeline
+    - data/raw/model_df    
     
+
+  
 
 
 

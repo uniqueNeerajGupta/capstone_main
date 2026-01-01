@@ -78,13 +78,13 @@ def main():
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
     # input file
-    csv_path = BASE_DIR /"data"/"raw"/"preprocessing"/"gurgaon_properties_cleaned_v1.csv"
+    csv_path = BASE_DIR / "data" /  "raw" / "preprocessing" / "gurgaon_properties_cleaned_v1.csv"
     # output file
-    output_dir = BASE_DIR /"data"/"raw"/"features"/"gurgaon_properties_cleaned_v2.csv"
+    output_dir = BASE_DIR / "data" / "raw" / "features" 
     output_dir.mkdir(parents=True, exist_ok=True)
 
 
-    output_path = output_dir / "houses_cleaned.csv"
+    output_path = output_dir / "gurgaon_properties_cleaned_v2.csv"
 
     # load & process
     df = load_df(csv_path)

@@ -57,11 +57,68 @@ stages:
     deps:
     - path: src/features/features.py
       hash: md5
-      md5: 7ced24d8002df1d14b4cd6e1bb5fb4fa
-      size: 3960
+      md5: 3f432e780f2572a935dc21e2ebe73b4c
+      size: 3953
     outs:
     - path: data/raw/features
       hash: md5
-      md5: ec638ea54a8f10b3457f693bed1c0d3c.dir
+      md5: 656ced02fe50aa498aa57be3755d50a7.dir
       size: 3882642
+      nfiles: 1
+  outlier:
+    cmd: python src/outlier/outlier.py
+    deps:
+    - path: src/outlier/outlier.py
+      hash: md5
+      md5: 74dc9bbe5730b8bc0a6e0e733b3d7395
+      size: 774
+    outs:
+    - path: data/raw/outlier
+      hash: md5
+      md5: ce3b2328be3cf53a29635f17dcb414bd.dir
+      size: 686646
+      nfiles: 1
+  imutation:
+    cmd: python src/imutation/imutation.py
+    deps:
+    - path: src/imutation/imutation.py
+      hash: md5
+      md5: c727b72e8e0bbed9479f7f48bc211fb5
+      size: 809
+    outs:
+    - path: data/raw/imputation
+      hash: md5
+      md5: 268e06d0596d067549ac8fd2a3de2b5c.dir
+      size: 393976
+      nfiles: 1
+  features-selection:
+    cmd: python src/features-selection/features_selection.py
+    deps:
+    - path: src/features-selection/features_selection.py
+      hash: md5
+      md5: fbed95ab20003eca73ab51441041689f
+      size: 7209
+    outs:
+    - path: data/raw/features_one
+      hash: md5
+      md5: 0f8e2aefb0d1e5f1accfbf48982c9867.dir
+      size: 393976
+      nfiles: 1
+  model:
+    cmd: python src/models/model.py
+    deps:
+    - path: src/models/model.py
+      hash: md5
+      md5: 80fdefabd3a2aed999c1fd741f22ab9f
+      size: 3401
+    outs:
+    - path: data/raw/model_df
+      hash: md5
+      md5: b1a3500b10e5c589933b069e55c1cd8d.dir
+      size: 91825544
+      nfiles: 1
+    - path: data/raw/model_pipeline
+      hash: md5
+      md5: e2b7cd0663064167f8ec314ab998e490.dir
+      size: 194302
       nfiles: 1

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/e6fa7dc6bd2d4dbd8593d6357269fb92/artifacts
+end_time: 1767538166053
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: e6fa7dc6bd2d4dbd8593d6357269fb92
+run_name: lyrical-seal-387
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767538116596
+status: 3
+tags: []
+user_id: yogeshgupta

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/ae2a954a85e14bcfb740dcd0060f8308/artifacts
+end_time: 1767533446678
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: ae2a954a85e14bcfb740dcd0060f8308
+run_name: funny-skunk-163
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533394877
+status: 3
+tags: []
+user_id: yogeshgupta

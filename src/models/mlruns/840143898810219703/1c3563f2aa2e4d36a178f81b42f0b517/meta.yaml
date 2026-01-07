@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/1c3563f2aa2e4d36a178f81b42f0b517/artifacts
+end_time: 1767533582456
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 1c3563f2aa2e4d36a178f81b42f0b517
+run_name: aged-shrike-132
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533531783
+status: 3
+tags: []
+user_id: yogeshgupta

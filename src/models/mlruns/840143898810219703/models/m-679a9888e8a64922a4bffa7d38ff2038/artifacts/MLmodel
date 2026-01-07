@@ -1,0 +1,22 @@
+artifact_path: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/models/m-679a9888e8a64922a4bffa7d38ff2038/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.7.0
+model_id: m-679a9888e8a64922a4bffa7d38ff2038
+model_size_bytes: 91825544
+model_uuid: m-679a9888e8a64922a4bffa7d38ff2038
+prompts: null
+run_id: 2d91f848a78d403398996bb0311dc219
+utc_time_created: '2026-01-04 13:35:38.156547'

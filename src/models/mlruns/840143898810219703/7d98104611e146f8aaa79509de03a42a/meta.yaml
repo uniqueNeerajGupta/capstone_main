@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/7d98104611e146f8aaa79509de03a42a/artifacts
+end_time: 1767534783920
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 7d98104611e146f8aaa79509de03a42a
+run_name: colorful-quail-962
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534734829
+status: 3
+tags: []
+user_id: yogeshgupta

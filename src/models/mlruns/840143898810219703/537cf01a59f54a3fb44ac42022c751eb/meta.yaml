@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/537cf01a59f54a3fb44ac42022c751eb/artifacts
+end_time: 1767535207709
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 537cf01a59f54a3fb44ac42022c751eb
+run_name: brawny-cow-869
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767535156160
+status: 3
+tags: []
+user_id: yogeshgupta

@@ -1,0 +1,10 @@
+artifact_location: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/models/m-f0770e61ce0245a9adab725c433b8517/artifacts
+creation_timestamp: 1767532475177
+experiment_id: '703683866598180803'
+last_updated_timestamp: 1767532477533
+model_id: m-f0770e61ce0245a9adab725c433b8517
+model_type: null
+name: best_estimator
+source_run_id: 0bc5ea2b9a5142779ea12f55d20b3c3c
+status: 2
+status_message: null

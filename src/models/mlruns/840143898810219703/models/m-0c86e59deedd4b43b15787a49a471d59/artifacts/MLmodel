@@ -1,0 +1,36 @@
+artifact_path: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/models/m-0c86e59deedd4b43b15787a49a471d59/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-0c86e59deedd4b43b15787a49a471d59
+model_size_bytes: 91825544
+model_uuid: m-0c86e59deedd4b43b15787a49a471d59
+prompts: null
+run_id: 527a4745226240e0b4cf992bee8ba4a1
+signature:
+  inputs: '[{"type": "string", "name": "property_type", "required": true}, {"type":
+    "string", "name": "sector", "required": true}, {"type": "double", "name": "bedRoom",
+    "required": true}, {"type": "double", "name": "bathroom", "required": true}, {"type":
+    "string", "name": "balcony", "required": true}, {"type": "string", "name": "agePossession",
+    "required": true}, {"type": "double", "name": "built_up_area", "required": true},
+    {"type": "double", "name": "servant room", "required": true}, {"type": "double",
+    "name": "store room", "required": true}, {"type": "string", "name": "furnishing_type",
+    "required": true}, {"type": "string", "name": "luxury_category", "required": true},
+    {"type": "string", "name": "floor_category", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-04 14:17:44.723530'

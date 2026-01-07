@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/b05dbe5b66ff4e90918bd8ed936a0af2/artifacts
+end_time: 1767534787036
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: b05dbe5b66ff4e90918bd8ed936a0af2
+run_name: delicate-bear-430
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534786614
+status: 3
+tags: []
+user_id: yogeshgupta

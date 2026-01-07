@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/d2cbf44759ff493aa34288b03bd58597/artifacts
+end_time: 1767532869238
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: d2cbf44759ff493aa34288b03bd58597
+run_name: puzzled-moose-631
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532820713
+status: 3
+tags: []
+user_id: yogeshgupta

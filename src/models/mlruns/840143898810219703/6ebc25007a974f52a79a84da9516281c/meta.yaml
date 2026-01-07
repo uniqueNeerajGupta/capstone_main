@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/6ebc25007a974f52a79a84da9516281c/artifacts
+end_time: 1767533446678
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 6ebc25007a974f52a79a84da9516281c
+run_name: classy-wolf-114
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533394877
+status: 3
+tags: []
+user_id: yogeshgupta

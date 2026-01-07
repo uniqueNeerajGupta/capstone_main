@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/7b640db71a904e48a97e5499673836db/artifacts
+end_time: 1767533585685
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 7b640db71a904e48a97e5499673836db
+run_name: rogue-snipe-370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533585265
+status: 3
+tags: []
+user_id: yogeshgupta

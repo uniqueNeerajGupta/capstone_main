@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/d43d668f69e84138997fd55d25fcc616/artifacts
+end_time: 1767534783920
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: d43d668f69e84138997fd55d25fcc616
+run_name: dazzling-goat-898
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534734829
+status: 3
+tags: []
+user_id: yogeshgupta

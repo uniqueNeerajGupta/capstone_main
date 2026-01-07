@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/mlruns/662676350411961928/39cc64d37b36440ebd903bfc2e1f80df/artifacts
+end_time: 1767360225323
+entry_point_name: ''
+experiment_id: '662676350411961928'
+lifecycle_stage: active
+run_id: 39cc64d37b36440ebd903bfc2e1f80df
+run_name: rf_gridsearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767360225317
+status: 3
+tags: []
+user_id: yogeshgupta

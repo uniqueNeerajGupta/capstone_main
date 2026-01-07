@@ -1,0 +1,15 @@
+creation_timestamp: 1767536520277
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1767536520277
+model_id: m-ad2bb2e1c558410997bc9e285e3125da
+name: RealEstatePriceModel
+run_id: 0ad265d7d1184fe5bd3447d63fbb6fb7
+run_link: null
+source: models:/m-ad2bb2e1c558410997bc9e285e3125da
+status: READY
+status_message: null
+storage_location: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/models/m-ad2bb2e1c558410997bc9e285e3125da/artifacts
+user_id: null
+version: 4

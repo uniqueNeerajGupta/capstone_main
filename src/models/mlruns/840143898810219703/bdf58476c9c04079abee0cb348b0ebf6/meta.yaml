@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/bdf58476c9c04079abee0cb348b0ebf6/artifacts
+end_time: 1767534783920
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: bdf58476c9c04079abee0cb348b0ebf6
+run_name: thundering-moth-185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534734829
+status: 3
+tags: []
+user_id: yogeshgupta

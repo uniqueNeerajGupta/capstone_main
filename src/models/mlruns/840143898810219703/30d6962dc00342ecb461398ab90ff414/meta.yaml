@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/30d6962dc00342ecb461398ab90ff414/artifacts
+end_time: 1767533585263
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 30d6962dc00342ecb461398ab90ff414
+run_name: youthful-bat-883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533531783
+status: 4
+tags: []
+user_id: yogeshgupta

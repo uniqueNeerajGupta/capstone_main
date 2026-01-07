@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/d69a1462266148f592a51412cb07ba44/artifacts
+end_time: 1767534786612
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: d69a1462266148f592a51412cb07ba44
+run_name: calm-gnat-44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534734829
+status: 4
+tags: []
+user_id: yogeshgupta

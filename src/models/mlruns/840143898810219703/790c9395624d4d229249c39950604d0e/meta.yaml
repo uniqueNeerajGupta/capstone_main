@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/790c9395624d4d229249c39950604d0e/artifacts
+end_time: 1767532869238
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 790c9395624d4d229249c39950604d0e
+run_name: useful-kite-591
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532820713
+status: 3
+tags: []
+user_id: yogeshgupta

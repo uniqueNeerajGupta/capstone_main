@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/3e366aef5f134254b5dda4598d989eef/artifacts
+end_time: 1767533446678
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 3e366aef5f134254b5dda4598d989eef
+run_name: burly-shark-685
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533394877
+status: 3
+tags: []
+user_id: yogeshgupta

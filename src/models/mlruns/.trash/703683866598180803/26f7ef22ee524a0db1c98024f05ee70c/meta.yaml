@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/26f7ef22ee524a0db1c98024f05ee70c/artifacts
+deleted_time: 1767532558894
+end_time: 1767532045132
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: 26f7ef22ee524a0db1c98024f05ee70c
+run_name: auspicious-whale-53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767531997782
+status: 3
+tags: []
+user_id: yogeshgupta

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/fb0e514f750b472f9a826f4db0166fd1/artifacts
+end_time: 1767536267083
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: fb0e514f750b472f9a826f4db0166fd1
+run_name: legendary-gnat-485
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536217429
+status: 3
+tags: []
+user_id: yogeshgupta

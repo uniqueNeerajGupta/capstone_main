@@ -1,0 +1,6 @@
+artifact_location: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703
+creation_time: 1767532820396
+experiment_id: '840143898810219703'
+last_update_time: 1767532820396
+lifecycle_stage: active
+name: real_estate_price_experiment

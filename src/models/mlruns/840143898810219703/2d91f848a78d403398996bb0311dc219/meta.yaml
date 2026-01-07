@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/2d91f848a78d403398996bb0311dc219/artifacts
+end_time: 1767533740588
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 2d91f848a78d403398996bb0311dc219
+run_name: efficient-squid-984
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533685719
+status: 3
+tags: []
+user_id: yogeshgupta

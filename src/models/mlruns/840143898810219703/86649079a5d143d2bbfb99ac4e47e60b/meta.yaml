@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/86649079a5d143d2bbfb99ac4e47e60b/artifacts
+end_time: 1767533449363
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 86649079a5d143d2bbfb99ac4e47e60b
+run_name: bittersweet-wasp-354
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533394877
+status: 3
+tags: []
+user_id: yogeshgupta

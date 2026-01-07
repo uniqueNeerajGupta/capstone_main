@@ -1,0 +1,15 @@
+digest: fef174e0
+name: dataset
+profile: '{"num_rows": 3554, "num_elements": 42648}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "property_type", "required":
+  true}, {"type": "string", "name": "sector", "required": true}, {"type": "double",
+  "name": "bedRoom", "required": true}, {"type": "double", "name": "bathroom", "required":
+  true}, {"type": "string", "name": "balcony", "required": true}, {"type": "string",
+  "name": "agePossession", "required": true}, {"type": "double", "name": "built_up_area",
+  "required": true}, {"type": "double", "name": "servant room", "required": true},
+  {"type": "double", "name": "store room", "required": true}, {"type": "string", "name":
+  "furnishing_type", "required": true}, {"type": "string", "name": "luxury_category",
+  "required": true}, {"type": "string", "name": "floor_category", "required": true}]}'
+source: '{"tags": {"mlflow.user": "yogeshgupta", "mlflow.source.name": "./model.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "eed369590d26f432c08113a5be9ef831e4befc7f"}}'
+source_type: code

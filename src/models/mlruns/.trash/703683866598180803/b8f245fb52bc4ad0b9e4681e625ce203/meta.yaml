@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/b8f245fb52bc4ad0b9e4681e625ce203/artifacts
+deleted_time: 1767532558894
+end_time: 1767532477538
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: b8f245fb52bc4ad0b9e4681e625ce203
+run_name: auspicious-bee-885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532426936
+status: 3
+tags: []
+user_id: yogeshgupta

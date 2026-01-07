@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/aa75ad920e444cd296c7faedd39847dd/artifacts
+end_time: 1767533582456
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: aa75ad920e444cd296c7faedd39847dd
+run_name: ambitious-bee-164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533531783
+status: 3
+tags: []
+user_id: yogeshgupta

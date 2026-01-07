@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/0bc5ea2b9a5142779ea12f55d20b3c3c/artifacts
+deleted_time: 1767532558894
+end_time: 1767532480166
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: 0bc5ea2b9a5142779ea12f55d20b3c3c
+run_name: youthful-cod-379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532426936
+status: 3
+tags: []
+user_id: yogeshgupta

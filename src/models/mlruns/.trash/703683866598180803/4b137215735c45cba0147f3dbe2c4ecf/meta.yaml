@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/4b137215735c45cba0147f3dbe2c4ecf/artifacts
+deleted_time: 1767532558894
+end_time: 1767360567588
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: 4b137215735c45cba0147f3dbe2c4ecf
+run_name: incongruous-ape-546
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767360520242
+status: 3
+tags: []
+user_id: yogeshgupta

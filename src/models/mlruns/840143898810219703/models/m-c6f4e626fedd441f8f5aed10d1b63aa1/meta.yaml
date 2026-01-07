@@ -1,0 +1,10 @@
+artifact_location: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/models/m-c6f4e626fedd441f8f5aed10d1b63aa1/artifacts
+creation_timestamp: 1767536260862
+experiment_id: '840143898810219703'
+last_updated_timestamp: 1767536264376
+model_id: m-c6f4e626fedd441f8f5aed10d1b63aa1
+model_type: null
+name: model
+source_run_id: 527a4745226240e0b4cf992bee8ba4a1
+status: 2
+status_message: null

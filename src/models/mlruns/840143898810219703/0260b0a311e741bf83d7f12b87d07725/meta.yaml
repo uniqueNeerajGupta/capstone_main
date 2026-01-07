@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/0260b0a311e741bf83d7f12b87d07725/artifacts
+end_time: 1767534972921
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 0260b0a311e741bf83d7f12b87d07725
+run_name: welcoming-steed-754
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534915828
+status: 4
+tags: []
+user_id: yogeshgupta

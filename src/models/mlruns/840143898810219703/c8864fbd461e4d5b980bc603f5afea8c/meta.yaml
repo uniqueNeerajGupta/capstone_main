@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/c8864fbd461e4d5b980bc603f5afea8c/artifacts
+end_time: 1767533737886
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: c8864fbd461e4d5b980bc603f5afea8c
+run_name: thoughtful-crow-3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533685719
+status: 3
+tags: []
+user_id: yogeshgupta

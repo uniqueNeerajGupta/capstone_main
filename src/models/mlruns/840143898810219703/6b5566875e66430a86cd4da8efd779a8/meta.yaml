@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/6b5566875e66430a86cd4da8efd779a8/artifacts
+end_time: 1767536419783
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 6b5566875e66430a86cd4da8efd779a8
+run_name: adaptable-crane-660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536366726
+status: 3
+tags: []
+user_id: yogeshgupta

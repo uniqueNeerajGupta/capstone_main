@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/a0bffc3d906f4918a27abc127b2047fc/artifacts
+end_time: 1767536267083
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: a0bffc3d906f4918a27abc127b2047fc
+run_name: glamorous-shrike-806
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536217429
+status: 3
+tags: []
+user_id: yogeshgupta

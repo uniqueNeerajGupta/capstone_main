@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/12afdd3133a24d3b9fd470c57ce1d523/artifacts
+end_time: 1767534783920
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 12afdd3133a24d3b9fd470c57ce1d523
+run_name: youthful-ant-475
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534734829
+status: 3
+tags: []
+user_id: yogeshgupta

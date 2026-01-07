@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/9bdb3be3889740f19fc9d84b8ad2a761/artifacts
+end_time: 1767536267083
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 9bdb3be3889740f19fc9d84b8ad2a761
+run_name: resilient-loon-900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536217429
+status: 3
+tags: []
+user_id: yogeshgupta

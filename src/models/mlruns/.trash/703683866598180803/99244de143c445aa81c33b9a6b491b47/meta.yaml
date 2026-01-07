@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/99244de143c445aa81c33b9a6b491b47/artifacts
+deleted_time: 1767532558894
+end_time: 1767532477538
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: 99244de143c445aa81c33b9a6b491b47
+run_name: burly-fawn-468
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767532426936
+status: 3
+tags: []
+user_id: yogeshgupta

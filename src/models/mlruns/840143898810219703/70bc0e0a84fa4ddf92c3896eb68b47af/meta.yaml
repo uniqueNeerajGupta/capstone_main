@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/70bc0e0a84fa4ddf92c3896eb68b47af/artifacts
+end_time: 1767534970140
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 70bc0e0a84fa4ddf92c3896eb68b47af
+run_name: adaptable-mare-929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767534915828
+status: 3
+tags: []
+user_id: yogeshgupta

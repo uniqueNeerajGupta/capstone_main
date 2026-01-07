@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/3e53741627fd49888b8035a1e2dc1d9f/artifacts
+end_time: 1767536514435
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 3e53741627fd49888b8035a1e2dc1d9f
+run_name: luminous-doe-295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536461831
+status: 3
+tags: []
+user_id: yogeshgupta

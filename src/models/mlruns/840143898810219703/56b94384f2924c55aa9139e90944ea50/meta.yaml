@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/56b94384f2924c55aa9139e90944ea50/artifacts
+end_time: 1767536514435
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 56b94384f2924c55aa9139e90944ea50
+run_name: resilient-asp-765
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536461831
+status: 3
+tags: []
+user_id: yogeshgupta

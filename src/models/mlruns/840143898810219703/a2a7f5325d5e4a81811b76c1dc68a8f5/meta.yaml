@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/a2a7f5325d5e4a81811b76c1dc68a8f5/artifacts
+end_time: 1767538171944
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: a2a7f5325d5e4a81811b76c1dc68a8f5
+run_name: receptive-loon-982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767538116596
+status: 3
+tags: []
+user_id: yogeshgupta

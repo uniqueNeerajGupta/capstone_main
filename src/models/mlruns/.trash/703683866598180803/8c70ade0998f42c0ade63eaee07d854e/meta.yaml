@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/703683866598180803/8c70ade0998f42c0ade63eaee07d854e/artifacts
+deleted_time: 1767532558894
+end_time: 1767358056797
+entry_point_name: ''
+experiment_id: '703683866598180803'
+lifecycle_stage: deleted
+run_id: 8c70ade0998f42c0ade63eaee07d854e
+run_name: RF_GridSearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767358056789
+status: 4
+tags: []
+user_id: yogeshgupta

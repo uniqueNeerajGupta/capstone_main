@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/cdd3b6ddb0d6487e98760fb579295a3c/artifacts
+end_time: 1767533737886
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: cdd3b6ddb0d6487e98760fb579295a3c
+run_name: inquisitive-calf-656
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767533685719
+status: 3
+tags: []
+user_id: yogeshgupta

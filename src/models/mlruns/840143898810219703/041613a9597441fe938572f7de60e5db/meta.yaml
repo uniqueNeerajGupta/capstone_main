@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/yogeshgupta/capstone/src/models/mlruns/840143898810219703/041613a9597441fe938572f7de60e5db/artifacts
+end_time: 1767536419783
+entry_point_name: ''
+experiment_id: '840143898810219703'
+lifecycle_stage: active
+run_id: 041613a9597441fe938572f7de60e5db
+run_name: indecisive-fly-439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767536366726
+status: 3
+tags: []
+user_id: yogeshgupta

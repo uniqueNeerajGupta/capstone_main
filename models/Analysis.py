@@ -50,7 +50,7 @@ st.markdown("""
 # --- 3. DATA ENGINE ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv('data/raw/imputation/gurgaon_properties_missing_value_imputation.csv', index_col=0)
+    df = pd.read_csv('gurgaon_properties_missing_value_imputation.csv', index_col=0)
     num_cols = ['price','price_per_sqft','built_up_area','luxury_score','bedRoom','bathroom']
     for c in num_cols:
         df[c] = pd.to_numeric(df[c], errors='coerce')

@@ -14,14 +14,12 @@ st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Outfit:wght@100;300;400;700&display=swap');
 
-    /* Global Atmosphere */
     [data-testid="stAppViewContainer"] {
         background-color: #020202;
         background-image: radial-gradient(circle at 2% 2%, #0a1a15 0%, #000 100%);
         color: #ffffff;
     }
 
-    /* Branding & Typography */
     .garmandi-title {
         font-family: 'Cinzel', serif;
         font-size: 6.5rem;
@@ -32,7 +30,6 @@ st.markdown("""
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 50px;
-        margin-bottom: 0px;
     }
 
     .sub-heading {
@@ -41,12 +38,10 @@ st.markdown("""
         color: #D4AF37;
         letter-spacing: 10px;
         font-size: 0.8rem;
-        text-transform: uppercase;
         margin-bottom: 60px;
         opacity: 0.8;
     }
 
-    /* 3D Module Cards */
     .module-card {
         background: rgba(255, 255, 255, 0.02);
         border: 1px solid rgba(212, 175, 55, 0.1);
@@ -68,7 +63,6 @@ st.markdown("""
     .feature-title { font-family: 'Cinzel', serif; color: #FFFFFF; font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 15px; }
     .feature-desc { font-family: 'Outfit', sans-serif; color: rgba(255,255,255,0.6); font-size: 0.85rem; line-height: 1.7; }
 
-    /* Buttons */
     .stButton>button {
         background: transparent;
         border: 1px solid rgba(212, 175, 55, 0.4);
@@ -81,24 +75,23 @@ st.markdown("""
         margin-top: 20px;
         transition: 0.4s;
     }
+
     .stButton>button:hover { background: #D4AF37; color: black; border-color: #D4AF37; }
 
-    /* Utility */
     header, footer {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
 
 # --- 3. NAVIGATION ---
-# Note: Ensure these files exist in your 'pages/' directory
 pages = {
     "Dashboard": [st.Page("login.py", title="Executive Terminal", icon="💠", default=True)],
     "Intelligence": [
-        st.Page("pages/price_prediction.py", title="Valuation Engine"),
-        st.Page("pages/location.py", title="Locality IQ"),
-        st.Page("pages/Real Estate Recommender.py", title="Asset Matcher"),
-        st.Page("pages/Analysis.py", title="Market Pulse"),
-        st.Page("pages/MymaP.py", title="GIS Spatial"),
-        st.Page("pages/flora.py", title="Flora AI")
+        st.Page("models/price_prediction.py", title="Valuation Engine"),
+        st.Page("models/location.py", title="Locality IQ"),
+        st.Page("models/Real Estate Recommender.py", title="Asset Matcher"),
+        st.Page("models/Analysis.py", title="Market Pulse"),
+        st.Page("models/MymaP.py", title="GIS Spatial"),
+        st.Page("models/flora.py", title="Flora AI")
     ]
 }
 pg = st.navigation(pages)
@@ -118,32 +111,20 @@ if pg.title == "Executive Terminal":
 
     st.markdown("<br><hr style='opacity:0.1;'><br>", unsafe_allow_html=True)
 
-    # --- 6 FEATURES GRID (The Content) ---
+    # --- 6 FEATURES GRID ---
     features = [
-        {
-            "name": "Valuation Engine", "icon": "💎", "path": "pages/price_prediction.py",
-            "desc": "Proprietary neural networks crunching 15+ years of transaction data to predict future price appreciation with institutional precision."
-        },
-        {
-            "name": "Locality Alpha", "icon": "🛰️", "path": "pages/location.py",
-            "desc": "Beyond postcodes. We track gentrification, infrastructure pipeline, and social migration to find the next billion-dollar neighborhood."
-        },
-        {
-            "name": "Asset Matcher", "icon": "🎯", "path": "pages/Real Estate Recommender.py",
-            "desc": "Tailored acquisition logic. Align your capital deployment with assets that match your specific risk-profile and liquidity timelines."
-        },
-        {
-            "name": "Market Pulse", "icon": "📈", "path": "pages/Analysis.py",
-            "desc": "High-frequency data streams. Monitor supply-demand imbalances and absorption rates in the Mumbai & Tier-1 markets in real-time."
-        },
-        {
-            "name": "Spatial Mapping", "icon": "🗺️", "path": "pages/MymaP.py",
-            "desc": "Interactive 3D GIS environment. Visualize catchment areas, transit-oriented development impact, and satellite-verified land parcels."
-        },
-        {
-            "name": "Flora AI Partner", "icon": "🎙️", "path": "pages/flora.py",
-            "desc": "Our custom Large Language Model. A virtual investment partner capable of complex portfolio reasoning and instant market reports."
-        }
+        {"name": "Valuation Engine", "icon": "💎", "path": "models/price_prediction.py",
+         "desc": "Proprietary neural networks crunching 15+ years of transaction data to predict future price appreciation with institutional precision."},
+        {"name": "Locality Alpha", "icon": "🛰️", "path": "models/location.py",
+         "desc": "Beyond postcodes. We track gentrification, infrastructure pipeline, and social migration to find the next billion-dollar neighborhood."},
+        {"name": "Asset Matcher", "icon": "🎯", "path": "models/Real Estate Recommender.py",
+         "desc": "Tailored acquisition logic. Align your capital deployment with assets that match your specific risk-profile and liquidity timelines."},
+        {"name": "Market Pulse", "icon": "📈", "path": "models/Analysis.py",
+         "desc": "High-frequency data streams. Monitor supply-demand imbalances and absorption rates in the Mumbai & Tier-1 markets in real-time."},
+        {"name": "Spatial Mapping", "icon": "🗺️", "path": "models/MymaP.py",
+         "desc": "Interactive 3D GIS environment. Visualize catchment areas, transit-oriented development impact, and satellite-verified land parcels."},
+        {"name": "Flora AI Partner", "icon": "🎙️", "path": "models/flora.py",
+         "desc": "Our custom Large Language Model. A virtual investment partner capable of complex portfolio reasoning and instant market reports."}
     ]
 
     for i in range(0, len(features), 3):
@@ -187,7 +168,7 @@ if pg.title == "Executive Terminal":
             </p>
         """, unsafe_allow_html=True)
         if st.button("CONNECT TO NEURAL ADVISORY"):
-            st.switch_page("pages/flora.py")
+            st.switch_page("models/flora.py")
 
     # --- FOOTER ---
     st.markdown("<br><br><br>", unsafe_allow_html=True)

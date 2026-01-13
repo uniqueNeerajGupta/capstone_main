@@ -1,6 +1,12 @@
 streamlit
-pandas
-numpy
+
+
+
+scikit-learn==1.2.2
+pandas==2.1.4
+numpy==1.26.4
+
+
 
 Pillow
 pytesseract

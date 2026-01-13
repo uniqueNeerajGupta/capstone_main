@@ -150,7 +150,7 @@ if pg.title == "Executive Terminal":
 
     with col_img:
         st.markdown('<div style="padding:10px; border:1px solid #D4AF37; border-radius:20px;">', unsafe_allow_html=True)
-        st.image("https://img.freepik.com/free-photo/view-futuristic-robot-working-office_23-2150841517.jpg", 
+        st.image("https://www.indiastrategic.in/wp-content/uploads/2024/08/LR_AI-REVOLUTIONISING-MODERN-WARFARE.jpg", 
                  caption="FLORA CORE v4.2 - SECURE")
         st.markdown('</div>', unsafe_allow_html=True)
 

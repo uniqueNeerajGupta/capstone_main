@@ -93,12 +93,12 @@ st.markdown("""
 pages = {
     "Dashboard": [st.Page("login.py", title="Executive Terminal", icon="💠", default=True)],
     "Intelligence": [
-        st.Page("pages/price_prediction.py", title="Valuation Engine"),
-        st.Page("pages/location.py", title="Locality IQ"),
-        st.Page("pages/Real Estate Recommender.py", title="Asset Matcher"),
-        st.Page("pages/Analysis.py", title="Market Pulse"),
-        st.Page("pages/MymaP.py", title="GIS Spatial"),
-        st.Page("pages/flora.py", title="Flora AI")
+        st.Page("models/price_prediction.py", title="Valuation Engine"),
+        st.Page("models/location.py", title="Locality IQ"),
+        st.Page("models/Real Estate Recommender.py", title="Asset Matcher"),
+        st.Page("models/Analysis.py", title="Market Pulse"),
+        st.Page("models/MymaP.py", title="GIS Spatial"),
+        st.Page("models/flora.py", title="Flora AI")
     ]
 }
 pg = st.navigation(pages)
